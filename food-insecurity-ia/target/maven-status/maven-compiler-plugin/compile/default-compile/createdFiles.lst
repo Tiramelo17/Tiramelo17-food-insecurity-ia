@@ -1,0 +1,11 @@
+model/dto/PredictionRequestDTO$PredictionRequestDTOBuilder.class
+model/DatasetMetadata$DatasetMetadataBuilder.class
+config/WekaModelConfig.class
+model/dto/PredictionResponseDTO.class
+model/DatasetMetadata.class
+model/dto/PredictionRequestDTO.class
+model/dto/DatasetInfoDTO$DatasetInfoDTOBuilder.class
+model/dto/DatasetInfoDTO.class
+model/dto/PredictionResponseDTO$PredictionResponseDTOBuilder.class
+Application.class
+repository/DatasetMetadataRepository.class
