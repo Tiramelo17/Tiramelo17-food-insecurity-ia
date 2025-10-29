@@ -1,0 +1,60 @@
+@relation inseguranca_alimentar
+
+@attribute salario numeric
+@attribute regiao {Norte,Sul,CentroOeste,Nordeste,Sudeste}
+@attribute faixa_idade {0-17,18-29,30-44,45-59,60+}
+@attribute escolaridade {Fundamental,Medio,Superior}
+@attribute pais {Brasil,Argentina,Uruguai,Paraguai,Chile}
+@attribute inseguranca {sim,nao}
+
+@data
+1100,Norte,18-29,Medio,Brasil,sim
+1200,Norte,30-44,Medio,Brasil,sim
+1300,Norte,45-59,Fundamental,Brasil,sim
+1150,Norte,0-17,Fundamental,Brasil,sim
+2200,Norte,30-44,Superior,Paraguai,nao
+2500,Norte,45-59,Superior,Brasil,nao
+4200,Norte,60+,Superior,Uruguai,nao
+3500,Norte,18-29,Medio,Argentina,nao
+3200,Norte,30-44,Superior,Chile,nao
+4100,Norte,45-59,Superior,Brasil,nao
+1150,Sul,18-29,Medio,Brasil,sim
+1250,Sul,0-17,Medio,Argentina,sim
+1350,Sul,45-59,Fundamental,Brasil,sim
+1400,Sul,30-44,Fundamental,Uruguai,sim
+2300,Sul,30-44,Superior,Brasil,nao
+2600,Sul,45-59,Superior,Argentina,nao
+4200,Sul,60+,Superior,Uruguai,nao
+3550,Sul,18-29,Medio,Chile,nao
+3700,Sul,30-44,Superior,Brasil,nao
+4000,Sul,45-59,Superior,Paraguai,nao
+1100,CentroOeste,18-29,Medio,Paraguai,sim
+1200,CentroOeste,0-17,Medio,Brasil,sim
+1300,CentroOeste,45-59,Fundamental,Brasil,sim
+1400,CentroOeste,30-44,Fundamental,Chile,sim
+2400,CentroOeste,30-44,Superior,Brasil,nao
+2700,CentroOeste,45-59,Superior,Brasil,nao
+4300,CentroOeste,60+,Superior,Argentina,nao
+3550,CentroOeste,18-29,Medio,Brasil,nao
+3750,CentroOeste,30-44,Superior,Uruguai,nao
+4200,CentroOeste,45-59,Superior,Brasil,nao
+1120,Nordeste,18-29,Medio,Brasil,sim
+1220,Nordeste,30-44,Medio,Paraguai,sim
+1320,Nordeste,45-59,Fundamental,Brasil,sim
+1180,Nordeste,0-17,Fundamental,Argentina,sim
+2450,Nordeste,30-44,Superior,Brasil,nao
+2600,Nordeste,45-59,Superior,Brasil,nao
+4100,Nordeste,60+,Superior,Uruguai,nao
+3700,Nordeste,18-29,Medio,Chile,nao
+3300,Nordeste,30-44,Superior,Brasil,nao
+4000,Nordeste,45-59,Superior,Brasil,nao
+1130,Sudeste,18-29,Medio,Argentina,sim
+1230,Sudeste,30-44,Medio,Brasil,sim
+1330,Sudeste,45-59,Fundamental,Brasil,sim
+1190,Sudeste,0-17,Fundamental,Chile,sim
+2500,Sudeste,30-44,Superior,Brasil,nao
+2700,Sudeste,45-59,Superior,Uruguai,nao
+4400,Sudeste,60+,Superior,Paraguai,nao
+3600,Sudeste,18-29,Medio,Argentina,nao
+3400,Sudeste,30-44,Superior,Brasil,nao
+4200,Sudeste,45-59,Superior,Brasil,nao
